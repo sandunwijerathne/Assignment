@@ -11,7 +11,7 @@ Clone the Git repository: Open Git Bash or your preferred terminal and navigate 
 ```bash
 git clone https://github.com/sandunwijerathne/Assignment.git
 ```
-Install WordPress: If you haven't already, download and extract the latest version of WordPress from the WordPress website. Move the WordPress files to the root directory of the cloned repository.
+Install WordPress: Move the WordPress files to the root directory of the cloned repository.
 
 
 Configure the database: Open XAMPP and start Apache and MySQL. Navigate to http://localhost/phpmyadmin/ in your web browser and restore the database for your WordPress project.
