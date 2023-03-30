@@ -48,14 +48,29 @@ Install Composer: If you don't have Composer installed on your computer, downloa
 
 Install project dependencies: Navigate to the cloned repository directory in your terminal and run the following command to install the project dependencies:
 
-```bash
-composer install
-```
 i used this pakage  https://github.com/mikemclin/laravel-wp-password this package provides an easy way to create and check against WordPress password hashes. WordPress is not required.
 
 install the pakage 
 `composer require mikemclin/laravel-wp-password`  
 
+Begin by installing this package through Composer. Edit your project's composer.json file to require mikemclin/laravel-wp-password.
+update like this
+```bash
+"require": {
+ "mikemclicomposer updaten/laravel-wp-password": "~2.0.1"
+} 
+```
+to 
+```bash
+"require": {
+  "mikemclin/laravel-wp-password": "~2.0.1"
+}
+```
+Next, update Composer from the Terminal:
+
+```bash
+composer install
+```
 
 Update the necessary database and application settings in the .env file. Put the above WordPress database name to .env 
 `(in my project Larevel and wordpress using same database)`
