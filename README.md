@@ -1,7 +1,7 @@
 # Assignment
 
-## Install a project in localhost
-
+## Install a Wordpress project in localhost
+wordpress Project is "** swivel ** "
 Install Git: If you don't have Git installed on your computer, download and install it from the Git website.
 
 Install XAMPP: If you don't have a local web server installed, download and install XAMPP from the Apache Friends website.
@@ -34,7 +34,7 @@ php -S localhost
 Access your project: Open your web browser and navigate to http://localhost/swivel to access your WordPress project.
 
 ## Install a Github Laravel project in localhost
-
+Laravel Project is "** Assignment ** "
 Install Git: If you don't have Git installed on your computer, download and install it from the Git website.
 
 Install XAMPP: If you don't have a local web server installed, download and install XAMPP from the Apache Friends website.
