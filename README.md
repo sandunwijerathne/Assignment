@@ -33,6 +33,14 @@ php -S localhost
 ```
 Access your project: Open your web browser and navigate to http://localhost/swivel to access your WordPress project.
 
+
+Wordpress Admin Access Details
+```bash
+un - swivel
+pw - Poiuy@123
+```
+
+
 ## Install a Github Laravel project in localhost
 Laravel Project is "** Assignment ** "<br>
 Install Git: If you don't have Git installed on your computer, download and install it from the Git website.
@@ -65,3 +73,9 @@ Start the web server: Navigate to the root directory of the cloned repository in
 php artisan serve
 ```
 Access your project: Open your web browser and navigate to http://127.0.0.1:8000/ to access your Laravel project.
+
+Laravel Access Details
+```bash
+un - iwdsandun@gmail.com
+pw - Poiuy@123
+```
