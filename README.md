@@ -52,7 +52,10 @@ Install project dependencies: Navigate to the cloned repository directory in you
 composer install
 ```
 
-Update the necessary database and application settings in the .env file. Put the above WordPress database name to .env
+
+
+Update the necessary database and application settings in the .env file. Put the above WordPress database name to .env 
+`(in my project Larevel and wordpress using same database)`
 
 Migrate the database: Run the following command to migrate the database tables:
 ```bash
