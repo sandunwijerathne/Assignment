@@ -1,7 +1,7 @@
 # Assignment
 
-## Install a Wordpress project in localhost
-wordpress Project is "** swivel ** "<br>
+## Install a WordPress project in localhost
+WordPress Project is "** swivel ** "<br>
 Install Git: If you don't have Git installed on your computer, download and install it from the Git website.
 
 Install XAMPP: If you don't have a local web server installed, download and install XAMPP from the Apache Friends website.
@@ -16,9 +16,9 @@ Install WordPress: If you haven't already, download and extract the latest versi
 
 Configure the database: Open XAMPP and start Apache and MySQL. Navigate to http://localhost/phpmyadmin/ in your web browser and create a new database for your WordPress project.
 
-Databse backups are inside the SQLBACKUP Folder
+Database backups are inside the SQLBACKUP Folder
 
-Configure WordPress: Rename the wp-config-sample.php file to wp-config.php and edit the database settings to match your local database.
+Configure WordPress: Rename the wp-config-sample.php file to wp-config.php and edit the settings to match your local database.
 
 Install the project dependencies: Navigate to the cloned repository directory in your terminal and run the following command to install the project dependencies:
 
@@ -53,7 +53,7 @@ Install project dependencies: Navigate to the cloned repository directory in you
 composer install
 ```
 
-Update the necessary database and application settings in the .env file. Put above wordpress database name to .env
+Update the necessary database and application settings in the .env file. Put the above WordPress database name to .env
 
 Migrate the database: Run the following command to migrate the database tables:
 ```bash
@@ -65,4 +65,3 @@ Start the web server: Navigate to the root directory of the cloned repository in
 php artisan serve
 ```
 Access your project: Open your web browser and navigate to http://127.0.0.1:8000/ to access your Laravel project.
-
