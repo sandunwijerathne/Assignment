@@ -14,23 +14,14 @@ git clone https://github.com/sandunwijerathne/Assignment.git
 Install WordPress: If you haven't already, download and extract the latest version of WordPress from the WordPress website. Move the WordPress files to the root directory of the cloned repository.
 
 
-Configure the database: Open XAMPP and start Apache and MySQL. Navigate to http://localhost/phpmyadmin/ in your web browser and create a new database for your WordPress project.
+Configure the database: Open XAMPP and start Apache and MySQL. Navigate to http://localhost/phpmyadmin/ in your web browser and restore the database for your WordPress project.
 
 Database backups are inside the SQLBACKUP Folder
 
-Configure WordPress: Rename the wp-config-sample.php file to wp-config.php and edit the settings to match your local database.
+Configure WordPress: file wp-config.php and edit the settings to match your local database.
 
-Install the project dependencies: Navigate to the cloned repository directory in your terminal and run the following command to install the project dependencies:
+Start the web server
 
-```bash
-npm install
-```
-
-Start the web server: Navigate to the root directory of the cloned repository in your terminal and start the web server by running the following command:
-
-```bash
-php -S localhost
-```
 Access your project: Open your web browser and navigate to http://localhost/swivel to access your WordPress project.
 
 
@@ -53,7 +44,7 @@ Clone the Git repository: Open Git Bash or your preferred terminal and navigate 
 git clone https://github.com/sandunwijerathne/Assignment.git
 ```
 
-Install Composer: If you don't have Composer installed on your computer, download and install it from the Composer website.
+Install Composer: If you don't have Composer installed on your computer, download and install it from the <a href="https://getcomposer.org/">Composer</a> website.
 
 Install project dependencies: Navigate to the cloned repository directory in your terminal and run the following command to install the project dependencies:
 
